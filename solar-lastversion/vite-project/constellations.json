@@ -1,0 +1,157 @@
+{
+    "constellations": [
+        {
+            
+                "name": "Virgo",
+                "stars": [
+                    { "id": 23, "name": "Spica", "x": 200, "y": -100, "z": 300, "color": "#ffffff", "size": 1.8, "type": "B1V", "luminosity": "12,100 L☉", "info": "Spica is the brightest star in the Virgo constellation and one of the brightest stars in the night sky. It is a binary system of a giant and a subgiant." },
+                    { "id": 24, "name": "Porrima", "x": 250, "y": -150, "z": 320, "color": "#ffd700", "size": 1.4, "type": "F0IV", "luminosity": "40 L☉", "info": "Porrima is a binary star system in the constellation of Virgo. It is also known as Gamma Virginis." },
+                    { "id": 25, "name": "Vindemiatrix", "x": 270, "y": -200, "z": 350, "color": "#fffacd", "size": 1.5, "type": "G8III", "luminosity": "83 L☉", "info": "Vindemiatrix is a giant star in the Virgo constellation. It is also known as Epsilon Virginis." },
+                    { "id": 26, "name": "Zavijava", "x": 180, "y": -80, "z": 290, "color": "#f5f5dc", "size": 1.3, "type": "F9V", "luminosity": "3.4 L☉", "info": "Zavijava, also known as Beta Virginis, is a main-sequence star located in the Virgo constellation." },
+                    { "id": 27, "name": "Heze", "x": 260, "y": -130, "z": 310, "color": "#d3d3d3", "size": 1.1, "type": "A3V", "luminosity": "24 L☉", "info": "Heze, also known as Zeta Virginis, is a main-sequence star in Virgo." },
+                    { "id": 28, "name": "Auva", "x": 220, "y": -170, "z": 330, "color": "#deb887", "size": 1.6, "type": "M0III", "luminosity": "60 L☉", "info": "Auva, or Delta Virginis, is a red giant star in the Virgo constellation." }
+                ],
+                "connections": [
+                    [23, 24],
+                    [24, 25],
+                    [25, 26],
+                    [26, 27],
+                    [27, 28]
+                ]
+            
+            
+        },
+        {
+            "name": "Aquarius",
+            "stars": [
+                { "id": 26, "name": "Sadalmelik", "x": 300, "y": 100, "z": -150, "color": "#ffffff", "size": 1.7, "type": "G2Ib", "luminosity": "2,200 L☉", "info": "Sadalmelik is one of the brightest stars in the constellation of Aquarius, known as Alpha Aquarii." },
+                { "id": 27, "name": "Sadalsuud", "x": 320, "y": 150, "z": -130, "color": "#fff8dc", "size": 1.5, "type": "K3III", "luminosity": "1,100 L☉", "info": "Sadalsuud is a bright giant star in Aquarius. It is also known as Beta Aquarii and is slightly brighter than Sadalmelik." },
+                { "id": 28, "name": "Skat", "x": 310, "y": 80, "z": -100, "color": "#fffaf0", "size": 1.3, "type": "A2V", "luminosity": "41 L☉", "info": "Skat is a relatively bright star in Aquarius, also known as Delta Aquarii." }
+            ],
+            "connections": [
+                [26, 27],
+                [27, 28]
+            ]
+        },
+        {
+            "name": "Cancer",
+            "stars": [
+                { "id": 29, "name": "Tarf", "x": -200, "y": 300, "z": 100, "color": "#ffcc99", "size": 1.8, "type": "K4III", "luminosity": "871 L☉", "info": "Tarf, also known as Beta Cancri, is the brightest star in the constellation of Cancer." },
+                { "id": 30, "name": "Asellus Borealis", "x": -180, "y": 320, "z": 130, "color": "#ffffe0", "size": 1.2, "type": "G0V", "luminosity": "8 L☉", "info": "Asellus Borealis is a relatively faint star in Cancer, also known as Gamma Cancri." },
+                { "id": 31, "name": "Acubens", "x": -150, "y": 340, "z": 150, "color": "#fff5ee", "size": 1.3, "type": "A5m", "luminosity": "23 L☉", "info": "Acubens is a white star in the Cancer constellation, also known as Alpha Cancri." }
+            ],
+            "connections": [
+                [29, 30],
+                [30, 31]
+            ]
+        },
+        {
+            "name": "Gemini",
+            "stars": [
+                { "id": 32, "name": "Castor", "x": 100, "y": 400, "z": 50, "color": "#ffffff", "size": 1.6, "type": "A1V", "luminosity": "28 L☉", "info": "Castor is one of the brightest stars in the constellation of Gemini and is actually a complex multiple star system." },
+                { "id": 33, "name": "Pollux", "x": 120, "y": 450, "z": 80, "color": "#ffebcd", "size": 1.9, "type": "K0III", "luminosity": "43 L☉", "info": "Pollux is an orange giant star and the brightest star in Gemini, also known as Beta Geminorum." },
+                { "id": 34, "name": "Wasat", "x": 140, "y": 430, "z": 90, "color": "#d3d3d3", "size": 1.1, "type": "F0V", "luminosity": "16 L☉", "info": "Wasat is a star in Gemini, also known as Delta Geminorum. It has a faint companion star." }
+            ],
+            "connections": [
+                [32, 33],
+                [33, 34]
+            ]
+        },
+        {
+            "name": "Libra",
+            "stars": [
+                { "id": 35, "name": "Zubenelgenubi", "x": 50, "y": 150, "z": 250, "color": "#ffffff", "size": 1.7, "type": "F3V", "luminosity": "50 L☉", "info": "Zubenelgenubi is a binary star system and one of the brightest stars in the constellation of Libra." },
+                { "id": 36, "name": "Zubeneschamali", "x": 80, "y": 180, "z": 270, "color": "#b0e0e6", "size": 1.5, "type": "B8V", "luminosity": "130 L☉", "info": "Zubeneschamali is the brightest star in Libra, known for its greenish tint." },
+                { "id": 37, "name": "Brachium", "x": 90, "y": 200, "z": 290, "color": "#f0e68c", "size": 1.2, "type": "K4III", "luminosity": "330 L☉", "info": "Brachium is a red giant star in Libra, also known as Sigma Librae." }
+            ],
+            "connections": [
+                [35, 36],
+                [36, 37]
+            ]
+        },
+        {
+            "name": "Aries",
+            "stars": [
+                { "id": 38, "name": "Hamal", "x": 180, "y": -300, "z": 50, "color": "#ffddcc", "size": 1.9, "type": "K2III", "luminosity": "91 L☉", "info": "Hamal is the brightest star in Aries and is a giant star that has moved off the main sequence." },
+                { "id": 39, "name": "Sheratan", "x": 200, "y": -250, "z": 30, "color": "#ffffff", "size": 1.5, "type": "A5V", "luminosity": "25 L☉", "info": "Sheratan is a binary star system in Aries, also known as Beta Arietis." },
+                { "id": 40, "name": "Mesarthim", "x": 210, "y": -270, "z": 40, "color": "#f8f8ff", "size": 1.3, "type": "B9V", "luminosity": "22 L☉", "info": "Mesarthim is a binary star in Aries, also known as Gamma Arietis." }
+            ],
+            "connections": [
+                [38, 39],
+                [39, 40]
+            ]
+        },
+        {
+            "name": "Scorpio",
+            "stars": [
+                { "id": 41, "name": "Antares", "x": -100, "y": -300, "z": 150, "color": "#ff3300", "size": 1.9, "type": "M1.5Iab", "luminosity": "75,900 L☉", "info": "Antares is the brightest star in the Scorpio constellation and a red supergiant. It is sometimes called the heart of the scorpion." },
+                { "id": 42, "name": "Shaula", "x": -150, "y": -350, "z": 100, "color": "#ffffff", "size": 1.2, "type": "B2IV", "luminosity": "33,000 L☉", "info": "Shaula is the second brightest star in Scorpio and is a multiple star system." },
+                { "id": 43, "name": "Sargas", "x": -130, "y": -320, "z": 130, "color": "#ffaa00", "size": 1.3, "type": "F1II", "luminosity": "960 L☉", "info": "Sargas is a bright giant star in Scorpio, also known as Theta Scorpii." }
+            ],
+            "connections": [
+                [41, 42],
+                [42, 43]
+            ]
+        },
+        {
+            "name": "Leo",
+            "stars": [
+                { "id": 44, "name": "Regulus", "x": 50, "y": -200, "z": 400, "color": "#ffffff", "size": 1.8, "type": "B8IVn", "luminosity": "350 L☉", "info": "Regulus is the brightest star in the constellation of Leo and a part of a multiple star system." },
+                { "id": 45, "name": "Denebola", "x": 70, "y": -150, "z": 450, "color": "#aaddff", "size": 1.5, "type": "A3V", "luminosity": "15 L☉", "info": "Denebola is the second brightest star in Leo, known for its white color." },
+                { "id": 46, "name": "Zosma", "x": 90, "y": -100, "z": 420, "color": "#ffffff", "size": 1.2, "type": "F3III", "luminosity": "24 L☉", "info": "Zosma is a bright star in the Leo constellation, also known as Delta Leonis." }
+            ],
+            "connections": [
+                [44, 45],
+                [45, 46]
+            ]
+        },
+        {
+            "name": "Sagittarius",
+            "stars": [
+                { "id": 47, "name": "Kaus Australis", "x": -250, "y": 100, "z": 200, "color": "#ffffff", "size": 1.8, "type": "B9.5III", "luminosity": "375 L☉", "info": "Kaus Australis is the brightest star in Sagittarius and is a binary system." },
+                { "id": 48, "name": "Nunki", "x": -230, "y": 130, "z": 180, "color": "#ffffff", "size": 1.5, "type": "B2.5V", "luminosity": "1,200 L☉", "info": "Nunki is a hot blue star in the Sagittarius constellation, also known as Sigma Sagittarii." },
+                { "id": 49, "name": "Ascella", "x": -210, "y": 120, "z": 160, "color": "#ffefd5", "size": 1.4, "type": "A2V", "luminosity": "20 L☉", "info": "Ascella is a bright star in Sagittarius, also known as Zeta Sagittarii." }
+            ],
+            "connections": [
+                [47, 48],
+                [48, 49]
+            ]
+        },
+        {
+            "name": "Capricornus",
+            "stars": [
+                { "id": 50, "name": "Deneb Algedi", "x": -100, "y": 200, "z": -100, "color": "#ffffff", "size": 1.8, "type": "A5m", "luminosity": "43 L☉", "info": "Deneb Algedi is the brightest star in Capricornus and is a multiple star system." },
+                { "id": 51, "name": "Dabih", "x": -120, "y": 180, "z": -150, "color": "#fff8dc", "size": 1.6, "type": "G9III", "luminosity": "58 L☉", "info": "Dabih is a bright giant star in Capricornus, also known as Beta Capricorni." },
+                { "id": 52, "name": "Nashira", "x": -150, "y": 220, "z": -120, "color": "#f5deb3", "size": 1.4, "type": "A7III", "luminosity": "25 L☉", "info": "Nashira is a bright star in Capricornus, also known as Gamma Capricorni." }
+            ],
+            "connections": [
+                [50, 51],
+                [51, 52]
+            ]
+        },
+        {
+            "name": "Pisces",
+            "stars": [
+                { "id": 53, "name": "Alrescha", "x": 150, "y": -100, "z": -200, "color": "#ffffff", "size": 1.7, "type": "A2V", "luminosity": "31 L☉", "info": "Alrescha is the brightest star in Pisces and is a binary star system." },
+                { "id": 54, "name": "Fumalsamakah", "x": 180, "y": -150, "z": -230, "color": "#ffebcd", "size": 1.5, "type": "K0III", "luminosity": "22 L☉", "info": "Fumalsamakah is a bright star in Pisces, also known as Beta Piscium." },
+                { "id": 55, "name": "Torcular", "x": 200, "y": -120, "z": -180, "color": "#d3d3d3", "size": 1.3, "type": "F6IV", "luminosity": "12 L☉", "info": "Torcular is a star in Pisces, also known as Omicron Piscium." }
+            ],
+            "connections": [
+                [53, 54],
+                [54, 55]
+            ]
+        },
+        {
+            "name": "Taurus",
+            "stars": [
+                { "id": 56, "name": "Aldebaran", "x": 300, "y": 200, "z": -150, "color": "#ff6600", "size": 1.7, "type": "K5III", "luminosity": "425 L☉", "info": "Aldebaran is the brightest star in the Taurus constellation and represents the eye of the bull." },
+                { "id": 57, "name": "Elnath", "x": 250, "y": 100, "z": -100, "color": "#ffffff", "size": 1.4, "type": "B7III", "luminosity": "700 L☉", "info": "Elnath is the second brightest star in Taurus and lies on the boundary with the constellation of Auriga." },
+                { "id": 58, "name": "Theta Tauri", "x": 270, "y": 150, "z": -50, "color": "#ffd700", "size": 1.1, "type": "A7III", "luminosity": "40 L☉", "info": "Theta Tauri is a binary star system in Taurus, part of the Hyades star cluster." }
+            ],
+            "connections": [
+                [56, 57],
+                [57, 58]
+            ]
+        }
+    ]
+}
